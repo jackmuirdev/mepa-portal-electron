@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connection Error</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f8d7da;
+      color: #721c24;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Unable to connect to app</h1>
+    <p>Check your internet connection.</p>
+    <button onclick="reloadApp()">Retry</button>
+  </div>
+  <script>
+    function reloadApp() {
+      window.location.reload();
+    }
+  </script>
+</body>
+</html>
